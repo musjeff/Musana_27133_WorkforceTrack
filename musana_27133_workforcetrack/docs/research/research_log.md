@@ -1,0 +1,14 @@
+# Research log
+
+> Rule: cite only sources you have actually read. Rows 1–2 were checked (title, authors, abstract-level findings). **Rows 3, 4 and 6 are real links but you must open and read them, then replace the "TO CONFIRM" text with your own finding, before you submit.**
+
+| # | Source (APA) | Type | Link | Key finding | Gap it shows |
+|---|---|---|---|---|---|
+| 1 | Madyatmadja, E. D., & Adora, C. (2019). Designing and using a MySQL database for human resource management. *Advances in Science, Technology and Engineering Systems Journal, 4*(6), 285–290. https://doi.org/10.25046/aj040636 | Research paper | https://astesj.com/v04/i06/p36 | A centralised web/MySQL database suits HR data such as employee records, attendance and payroll, and the database life cycle guides its design. | Literature-based only: no implementation, tests, business rules, auditing or productivity measures. |
+| 2 | Aarstad, J., & Kvitastein, O. A. (2023). Effect of long-term absenteeism on the operating revenues, productivity, and employment of enterprises. *Administrative Sciences, 13*(6), 156. https://doi.org/10.3390/admsci13060156 | Research paper | https://doaj.org/article/d62a7f8c06144e50965b4bd8da51f85c | Higher long-term absence lowers firm revenue and productivity and reduces next-year employment (Norwegian firm panel). | Shows why accurate attendance data matters, but gives no tool for recording it at employee level. |
+| 3 | U.S. Bureau of Labor Statistics. (n.d.). *Absences from work of employed full-time wage and salary workers by occupation and industry* (CPS Table 47). | Report / statistic | https://www.bls.gov/cps/cpsaat47.htm | TO CONFIRM: copy one absence-rate figure for a sector after reading the table. | National statistics only; no organisation-level, daily tracking. |
+| 4 | Odoo S.A. (n.d.). *Attendances* (Odoo documentation). | Existing system | https://www.odoo.com/documentation/19.0/applications/hr/attendances.html | TO CONFIRM: records check-in/check-out and hours worked per employee. | Large ERP; heavy, not tied to task completion and a restriction/audit design a student can inspect. |
+| 5 | ravindrasinghrana. (n.d.). *Employee/HR Dataset (All in One)* [Data set]. Kaggle. | Dataset | https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset | ~3,000 employee records with department, supervisor, rating, performance score, plus an engagement survey file. | Has no daily attendance or task data → generated and clearly labelled. |
+| 6 | Oracle. (n.d.). *Oracle Database PL/SQL Language Reference, Release 21c: PL/SQL triggers*. | Technical source | https://docs.oracle.com/en/database/oracle/oracle-database/21/lnpls/plsql-triggers.html | TO CONFIRM: BEFORE/AFTER row and statement triggers, autonomous transactions for logging. | Basis for the restriction trigger and audit design. |
+
+Optional additions: Oracle APEX / python-oracledb documentation for the innovation layer; NISR or World Bank labour data.

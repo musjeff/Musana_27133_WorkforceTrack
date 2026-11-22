@@ -4,6 +4,9 @@
 - **Course:** INSY 8311 – Database Development with PL/SQL · **Instructor:** Eric Maniraguha · AUCA, 2026-2027 Semester I
 - **Repository:** Musana_27133_WorkforceTrack
 
+## Phase III – PDB creation
+PDB `c_27133_musana_wftrack_db`, admin `musana_admin`, tablespaces `wftrack_data/idx/temp`, EM Express port 5533. Scripts: `database/setup/`, evidence: `screenshots/`.
+
 ## Problem statement
 Organisations that record attendance, hours and tasks on paper or spreadsheets get inaccurate, alterable data and cannot compare productivity between departments. Long-term absence reduces firm revenue and productivity (Aarstad & Kvitastein, 2023). Supervisors and HR managers need a reliable, auditable record.
 
@@ -48,4 +51,4 @@ Oracle Database 21c, SQL Developer, draw.io, Python (pandas, Streamlit, python-o
 - Oracle. (n.d.). *Oracle Database PL/SQL language reference, 21c: PL/SQL triggers*. https://docs.oracle.com/en/database/oracle/oracle-database/21/lnpls/plsql-triggers.html
 - ravindrasinghrana. (n.d.). *Employee/HR dataset (All in One)* [Data set]. Kaggle. https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset
 
-*"Whatever you do, work at it with all your heart." – Colossians 3:23*
+
